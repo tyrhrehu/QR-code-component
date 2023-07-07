@@ -1,0 +1,78 @@
+.body{
+
+    box-sizing: border-box;
+    background-color:rgb(194, 238, 238);
+    min-height:1000px;
+  
+}
+.html{
+    min-width:1500px;
+}
+
+.parent{
+width:323px;
+height:502px;
+background-color:white;
+border-radius:10px;
+margin:20px auto;
+margin-top:50%;
+position:relative;
+}
+.parent img{
+position:absolute;
+top:21px;
+left:16px;
+right:16px;
+bottom:191px;
+border-radius:15px;
+width:293px;
+height:292px;
+
+}
+.parent .p1{
+position:absolute;
+margin-top:32px;
+top:313px;
+left:34px;
+right:34px;
+text-align:center;
+font-size:22px;
+font-family:'outfit', sans-serif;
+font-weight:bolder;
+}
+@font-face{
+    font-family:'outfit';
+    src:url(Outfit-Regular.ttf);
+}
+.parent .p2{
+position:absolute;
+top:402px;
+right:34px;
+left:34px;
+font-family:'outfit 2';
+font-size:15px;
+font-weight:bold;
+
+
+}
+.parent .p2 .span1{
+    position:absolute;
+    left:12px;
+
+}
+.parent .p2 .span2{
+position:absolute;
+left:74px;
+font-family:'outfit 2';
+}
+@font-face{
+    font-family:'outfit 2';
+    src:url(Outfit-Thin.ttf);
+}
+@media (max-width:375px){
+    
+
+}
+@media (max-width:1440px){
+
+}
